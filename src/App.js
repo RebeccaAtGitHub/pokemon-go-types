@@ -32,15 +32,28 @@ const App = () => {
                 defaultColDef={{
                     filter: true,
                     resizable: true,
+                    width: 240,
                 }}
                 style={{ 
                     width: '100%', 
                     height: '100%;', 
                 }}
                 rowData={rowData}>
-               <AgGridColumn field="Typ" pinned="left" lockPinned={ true } width={100} sortable={ true }></AgGridColumn>
-               <AgGridColumn field="Stark" headerName="Stark gegen"></AgGridColumn>
-               <AgGridColumn field="Verletzbar" headerName="Verletzbar von"></AgGridColumn>
+               <AgGridColumn 
+                    field="Typ" 
+                    pinned="left" 
+                    lockPinned={ true } 
+                    width={100} 
+                    sortable={ true }
+                ></AgGridColumn>
+               <AgGridColumn 
+                    field="Stark" 
+                    headerName="Stark gegen" 
+                ></AgGridColumn>
+               <AgGridColumn 
+                    field="Verletzbar" 
+                    headerName="Verletzbar von"
+                ></AgGridColumn>
            </AgGridReact>
        </div>
    );
