@@ -1,8 +1,7 @@
 import React from 'react';
 import {AgGridColumn, AgGridReact} from 'ag-grid-react';
 
-import 'ag-grid-community/dist/styles/ag-grid.css';
-import 'ag-grid-community/dist/styles/ag-theme-alpine.css';
+import './App.scss';
 
 const App = () => {
    const rowData = [
@@ -38,7 +37,8 @@ const App = () => {
                     width: '100%', 
                     height: '100%;', 
                 }}
-                rowData={rowData}>
+                rowData={rowData}
+                rowSelection="multiple">
                <AgGridColumn 
                     field="Typ" 
                     pinned="left" 
