@@ -27,13 +27,16 @@ const App = () => {
    ];
 
    return (
-       <div className="ag-theme-alpine" style= {{ width: '100%', }} >
+       <div className="ag-theme-alpine" style= {{ width: '100%', height: '100vh' }} >
            <AgGridReact 
                 defaultColDef={{
                     filter: true,
                     resizable: true,
                 }}
-                domLayout={'autoHeight'}
+                style={{ 
+                    width: '100%', 
+                    height: '100%;', 
+                }}
                 rowData={rowData}>
                <AgGridColumn field="Typ" pinned="left" lockPinned={ true } width={100} sortable={ true }></AgGridColumn>
                <AgGridColumn field="Stark" headerName="Stark gegen"></AgGridColumn>
