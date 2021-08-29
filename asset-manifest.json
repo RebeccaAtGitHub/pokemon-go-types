@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/pokemon-go-types/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/pokemon-go-types/static/js/main.b75c1f30.chunk.js",
+    "main.js.map": "/pokemon-go-types/static/js/main.b75c1f30.chunk.js.map",
+    "runtime-main.js": "/pokemon-go-types/static/js/runtime-main.ae26438a.js",
+    "runtime-main.js.map": "/pokemon-go-types/static/js/runtime-main.ae26438a.js.map",
+    "static/css/2.2964def7.chunk.css": "/pokemon-go-types/static/css/2.2964def7.chunk.css",
+    "static/js/2.55e18dd6.chunk.js": "/pokemon-go-types/static/js/2.55e18dd6.chunk.js",
+    "static/js/2.55e18dd6.chunk.js.map": "/pokemon-go-types/static/js/2.55e18dd6.chunk.js.map",
+    "static/js/3.32a72776.chunk.js": "/pokemon-go-types/static/js/3.32a72776.chunk.js",
+    "static/js/3.32a72776.chunk.js.map": "/pokemon-go-types/static/js/3.32a72776.chunk.js.map",
+    "index.html": "/pokemon-go-types/index.html",
+    "static/css/2.2964def7.chunk.css.map": "/pokemon-go-types/static/css/2.2964def7.chunk.css.map",
+    "static/css/main.6dea0f05.chunk.css.map": "/pokemon-go-types/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.55e18dd6.chunk.js.LICENSE.txt": "/pokemon-go-types/static/js/2.55e18dd6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ae26438a.js",
+    "static/css/2.2964def7.chunk.css",
+    "static/js/2.55e18dd6.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.b75c1f30.chunk.js"
+  ]
+}
