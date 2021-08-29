@@ -35,7 +35,7 @@ const App = () => {
                 }}
                 domLayout={'autoHeight'}
                 rowData={rowData}>
-               <AgGridColumn field="Typ" pinned="left" lockPinned={ true } sortable={ true }></AgGridColumn>
+               <AgGridColumn field="Typ" pinned="left" lockPinned={ true } width={100} sortable={ true }></AgGridColumn>
                <AgGridColumn field="Stark" headerName="Stark gegen"></AgGridColumn>
                <AgGridColumn field="Verletzbar" headerName="Verletzbar von"></AgGridColumn>
            </AgGridReact>
