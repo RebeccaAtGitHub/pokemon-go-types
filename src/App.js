@@ -27,12 +27,17 @@ const App = () => {
    ];
 
    return (
-       <div className="ag-theme-alpine" style={{ width: '100%', height: '100%;' }}>
+       <div className="ag-theme-alpine" style= {{ width: '100%', }} >
            <AgGridReact 
-               rowData={rowData}>
-               <AgGridColumn field="Typ" pinned="left" lockPinned={ true } sortable={ true } filter={ true }></AgGridColumn>
-               <AgGridColumn field="Stark" headerName="Stark gegen" filter={ true }></AgGridColumn>
-               <AgGridColumn field="Verletzbar" headerName="Verletzbar von" filter={ true }></AgGridColumn>
+                defaultColDef={{
+                    filter: true,
+                    resizable: true,
+                }}
+                domLayout={'autoHeight'}
+                rowData={rowData}>
+               <AgGridColumn field="Typ" pinned="left" lockPinned={ true } sortable={ true }></AgGridColumn>
+               <AgGridColumn field="Stark" headerName="Stark gegen"></AgGridColumn>
+               <AgGridColumn field="Verletzbar" headerName="Verletzbar von"></AgGridColumn>
            </AgGridReact>
        </div>
    );
