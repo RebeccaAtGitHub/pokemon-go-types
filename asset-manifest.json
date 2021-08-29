@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/pokemon-go-types/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/pokemon-go-types/static/js/main.f2f0efdb.chunk.js",
-    "main.js.map": "/pokemon-go-types/static/js/main.f2f0efdb.chunk.js.map",
+    "main.js": "/pokemon-go-types/static/js/main.6cf1f64f.chunk.js",
+    "main.js.map": "/pokemon-go-types/static/js/main.6cf1f64f.chunk.js.map",
     "runtime-main.js": "/pokemon-go-types/static/js/runtime-main.ae26438a.js",
     "runtime-main.js.map": "/pokemon-go-types/static/js/runtime-main.ae26438a.js.map",
     "static/css/2.2964def7.chunk.css": "/pokemon-go-types/static/css/2.2964def7.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.2964def7.chunk.css",
     "static/js/2.55e18dd6.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.f2f0efdb.chunk.js"
+    "static/js/main.6cf1f64f.chunk.js"
   ]
 }
